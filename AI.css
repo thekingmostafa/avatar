@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+*{font-family:"Alex Brush",
+    cursive;
+font-weight: 400px;
+font-size: 40px;
+padding: 0;
+ margin: 0;}
+ a{ color: black;
+    text-decoration:none ;
+
+ }
+body{background-image: linear-gradient(to right, rgba(99, 97, 97, 0.753), rgba(0, 0, 0, 0.74)) ;
+height: 100vh;
+background-position:right ;
+align-items: center;background-image: url(mp.jpg.jpg);
+    background-size: cover;}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;}
+    .logo{font-size: 40px;
+     text-transform: uppercase;}
+     ul{
+        width: 60%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;}
+     ul a{
+            border-bottom: 2px dashed transparent;}
+ul a:hover{border-bottom-color: rgb(199, 194, 194);}
+.cont{color: black;
+  width: 50%;
+margin-top: 50px;
+padding: 30px;}
+.cont h2{
+    font-size: 80px;
+    text-transform: uppercase;}
+    .cont p{letter-spacing: 3px;
+            width: 440px }
+            .cont button{
+                font-size: 30px;
+                padding: 6px 10px;
+                border-radius: 10px;
+                border: 2px solid transparent;}
+                .cont button:hover{background-color:transparent;
+                border-color: blue;
+                color: rgb(189, 124, 26);}
+            
